@@ -26,8 +26,7 @@ public final class OOPLanguages extends ProgrammingLanguages implements OOP, Non
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof OOPLanguages)) return false;
-        if (!super.equals(o)) return false;
-        return true;
+        return super.equals(o);
     }
 
     @Override
