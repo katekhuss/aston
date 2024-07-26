@@ -23,13 +23,6 @@ public abstract class DeclarativeLanguages extends ProgrammingLanguages implemen
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof DeclarativeLanguages)) return false;
-        return super.equals(o);
-    }
-
-    @Override
     public int hashCode() {
         return Objects.hash(super.hashCode());
     }
