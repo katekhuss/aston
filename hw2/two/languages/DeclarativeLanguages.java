@@ -26,8 +26,7 @@ public abstract class DeclarativeLanguages extends ProgrammingLanguages implemen
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof DeclarativeLanguages)) return false;
-        if (!super.equals(o)) return false;
-        return true;
+        return super.equals(o);
     }
 
     @Override
