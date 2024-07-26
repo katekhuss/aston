@@ -24,8 +24,7 @@ public final class LowLevelLanguages extends ProgrammingLanguages implements Pro
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof LowLevelLanguages)) return false;
-        if (!super.equals(o)) return false;
-        return true;
+        return super.equals(o);
     }
 
     @Override
