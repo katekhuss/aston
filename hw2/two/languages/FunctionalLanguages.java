@@ -27,12 +27,11 @@ public final class FunctionalLanguages extends DeclarativeLanguages implements F
         System.out.print(" функциональный /");
     }
 
-    @Override
+@Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof FunctionalLanguages)) return false;
-        if (!super.equals(o)) return false;
-        return true;
+        return super.equals(o);
     }
 
     @Override
