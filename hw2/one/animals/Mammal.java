@@ -8,13 +8,6 @@ public abstract class Mammal extends Animal {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!super.equals(o)) return false;
-        return o instanceof Mammal;
-    }
-
-    @Override
     public int hashCode() {
         return super.hashCode();
     }
